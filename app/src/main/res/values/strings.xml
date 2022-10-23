@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Irish Rail App</string>
+    <string name="refresh">Refresh</string>
+    <string name="train_towards_to">towards %1$s</string>
+    <string name="train_expected_departure_at">at %1$s</string>
+    <string name="train_expected_departure_in_minutes">In %1$s min</string>
 </resources>

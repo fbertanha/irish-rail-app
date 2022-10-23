@@ -15,7 +15,7 @@
         android:theme="@style/Theme.IrishRailApp"
         tools:targetApi="31">
         <activity
-            android:name=".featureforecast.presentation.MainActivity"
+            android:name=".featureforecast.presentation.ForecastActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
