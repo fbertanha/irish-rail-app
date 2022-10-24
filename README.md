@@ -4,7 +4,7 @@ The purpose of this app is show the trains forecast for the Irish Rail system us
 
 ### How the app works
 
-When the app is opened or the refresh button is pressed a request for the `getStationDataByCodeXML?StationCode=[perse|howth]` is made automaticaly, the `StationCode` will follow the rules below:
+When the app is opened a request for the `getStationDataByCodeXML?StationCode=[perse|howth]` is made automaticaly, the `StationCode` will follow the rules below:
 - If the device's time is between `00:00 - 12:00` the app will only show trains from `Pearse Street` station towards to `Northbound`.
 - If the device's time is between `12:01 - 23:59` the app will only show trains from `Howth` station towards to `Southbound`.
 
